@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cyberPhysical_Incident="http://www.example.org/cyberPhysical_Incident" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_TlRGsDesEeqHf6YlkN3Zig" selectedViews="_0t_JIDeuEeqHf6YlkN3Zig" version="14.1.0.201810161215">
+    <semanticResources>incidentEx.cpi</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_0t_JIDeuEeqHf6YlkN3Zig">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/incident.design/description/incident.odesign#//@ownedViewpoints[name='incidentViewPoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_UUL60zevEeqHf6YlkN3Zig" name="incidentExDiagram" repPath="#_UT8DMDevEeqHf6YlkN3Zig">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/incident.design/description/incident.odesign#//@ownedViewpoints[name='incidentViewPoint']/@ownedRepresentations[name='incidentDiagram']"/>
+        <target xmi:type="cyberPhysical_Incident:IncidentDiagram" href="incidentEx.cpi#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_UT8DMDevEeqHf6YlkN3Zig" name="incidentExDiagram">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_UUL60DevEeqHf6YlkN3Zig" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_UUL60TevEeqHf6YlkN3Zig"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_UUMh4DevEeqHf6YlkN3Zig" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_UUMh4TevEeqHf6YlkN3Zig" type="Sirius" element="_UT8DMDevEeqHf6YlkN3Zig" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_UUMh4zevEeqHf6YlkN3Zig" type="2002" element="_UUKFoDevEeqHf6YlkN3Zig">
+          <children xmi:type="notation:Node" xmi:id="_UUMh5jevEeqHf6YlkN3Zig" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_UUMh5zevEeqHf6YlkN3Zig" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_UUMh6DevEeqHf6YlkN3Zig"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_UUMh6TevEeqHf6YlkN3Zig"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_UUMh5DevEeqHf6YlkN3Zig" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UUMh5TevEeqHf6YlkN3Zig" x="45" y="30"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_UUMh4jevEeqHf6YlkN3Zig"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_UUKFoDevEeqHf6YlkN3Zig" name="&lt;ScriptName>" tooltipText="Crime Script" childrenPresentation="HorizontalStack">
+      <target xmi:type="cyberPhysical_Incident:CrimeScript" href="incidentEx.cpi#//@crimeScript"/>
+      <semanticElements xmi:type="cyberPhysical_Incident:CrimeScript" href="incidentEx.cpi#//@crimeScript"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_UUKssDevEeqHf6YlkN3Zig" labelSize="12" iconPath="/incident.design/res/icons32/crimeScript.png" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" backgroundColor="204,242,166" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/incident.design/description/incident.odesign#//@ownedViewpoints[name='incidentViewPoint']/@ownedRepresentations[name='incidentDiagram']/@defaultLayer/@containerMappings[name='CrimeScriptContainer']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/incident.design/description/incident.odesign#//@ownedViewpoints[name='incidentViewPoint']/@ownedRepresentations[name='incidentDiagram']/@defaultLayer/@containerMappings[name='CrimeScriptContainer']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/incident.design/description/incident.odesign#//@ownedViewpoints[name='incidentViewPoint']/@ownedRepresentations[name='incidentDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_UT8DMTevEeqHf6YlkN3Zig"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/incident.design/description/incident.odesign#//@ownedViewpoints[name='incidentViewPoint']/@ownedRepresentations[name='incidentDiagram']/@defaultLayer"/>
+    <target xmi:type="cyberPhysical_Incident:IncidentDiagram" href="incidentEx.cpi#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

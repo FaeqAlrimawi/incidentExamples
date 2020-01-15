@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cyberPhysical_Incident:IncidentDiagram xmlns:cyberPhysical_Incident="http://www.example.org/cyberPhysical_Incident">
+  <crimeScript category="INSTANCE"/>
+</cyberPhysical_Incident:IncidentDiagram>
